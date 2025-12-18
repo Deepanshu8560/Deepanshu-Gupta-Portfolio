@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Download } from 'lucide-react';
 import { ProfilePhoto } from './ProfilePhoto';
 import { Timeline } from './Timeline';
 import { SkillDNA } from './SkillDNA';
@@ -57,24 +58,49 @@ export const About = () => {
                             animations to create immersive user experiences.
                         </motion.p>
 
-                        <motion.div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-6" variants={fadeInUp}>
-                            {[
-                                { label: 'Projects Completed', value: '20+' },
+                        {/* Download Resume Button and Stats in One Line */}
+                        <motion.div
+                            className="flex flex-col md:flex-row items-center justify-between gap-12 pt-6 w-full"
+                            variants={fadeInUp}
+                        >
+                            {/* Download Resume Button */}
+                            <motion.a
+                                href="/assets/Deepanshu_Gupta _Resume.pdf"
+                                download="Deepanshu_Gupta_Resume.pdf"
+                                className="inline-flex items-center space-x-2 px-8 py-4 rounded-full bg-gradient-to-r from-primary to-secondary text-white font-semibold glow-primary transition-all duration-300"
+                                whileHover={{ scale: 1.05, y: -2 }}
+                                whileTap={{ scale: 0.95 }}
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                            >
+                                <Download className="w-5 h-5" />
+                                <span>Download Resume</span>
+                            </motion.a>
 
-                                { label: 'Technologies', value: '20+' },
-                            ].map((stat, index) => (
-                                <motion.div
-                                    key={stat.label}
-                                    className="text-center"
-                                    initial={{ opacity: 0, scale: 0.8 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: index * 0.1 }}
-                                >
-                                    <div className="text-3xl font-bold text-gradient mb-2">{stat.value}</div>
-                                    <div className="text-sm text-gray-400">{stat.label}</div>
-                                </motion.div>
-                            ))}
+                            {/* Projects Completed */}
+                            <motion.div
+                                className="text-center"
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.1 }}
+                            >
+                                <div className="text-3xl font-bold text-gradient mb-2">20+</div>
+                                <div className="text-sm text-gray-400">Projects Completed</div>
+                            </motion.div>
+
+                            {/* Technologies */}
+                            <motion.div
+                                className="text-center"
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.2 }}
+                            >
+                                <div className="text-3xl font-bold text-gradient mb-2">20+</div>
+                                <div className="text-sm text-gray-400">Technologies</div>
+                            </motion.div>
                         </motion.div>
                     </div>
                 </motion.div>
