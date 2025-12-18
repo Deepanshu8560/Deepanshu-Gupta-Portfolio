@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, Mail, Github, Linkedin, CheckCircle, XCircle } from 'lucide-react';
+import { Send, Github, Linkedin, CheckCircle, XCircle } from 'lucide-react';
 import { ContactBackground } from './ContactBackground';
 import { staggerContainer, staggerItem } from '@/utils/animations';
 import emailjs from '@emailjs/browser';
