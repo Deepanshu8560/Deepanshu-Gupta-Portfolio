@@ -252,7 +252,7 @@ export const Contact = () => {
                                     animate={{ scale: [1, 1.2, 1] }}
                                     transition={{ duration: 2, repeat: Infinity }}
                                 />
-                                <span className="text-gray-300">Available</span>
+                                <span className="text-gray-300">Available for New Project</span>
                             </div>
                         </div>
 
