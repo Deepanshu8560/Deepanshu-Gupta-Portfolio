@@ -25,12 +25,16 @@
         "baseUrl": ".",
         "paths": {
             "@/*": [
-                "./src/*"
+                "./*"
             ]
         }
     },
     "include": [
-        "src"
+        "src",
+        "components",
+        "data",
+        "hooks",
+        "utils"
     ],
     "references": [
         {
