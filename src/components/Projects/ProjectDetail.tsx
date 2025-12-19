@@ -58,7 +58,19 @@ export const ProjectDetail = ({ project, onClose }: ProjectDetailProps) => {
                                 </span>
                             </div>
                         </div>
-                        <p className="text-gray-300 text-lg">{project.description}</p>
+                        <p className="text-gray-300 text-lg mb-6">{project.description}</p>
+
+                        {/* Project Image */}
+                        {project.image && (
+                            <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden glass">
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                            </div>
+                        )}
                     </div>
 
                     {/* Problem & Solution */}

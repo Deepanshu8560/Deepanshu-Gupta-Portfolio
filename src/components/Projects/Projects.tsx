@@ -87,19 +87,29 @@ export const Projects = () => {
                                 </div>
                             )}
 
-                            {/* Image Placeholder with Gradient */}
+                            {/* Project Image */}
                             <div className="relative h-48 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent-pink/20 overflow-hidden">
-                                <motion.div
-                                    className="absolute inset-0 bg-gradient-to-br from-primary to-secondary opacity-0 group-hover:opacity-20 transition-opacity duration-300"
-                                />
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <motion.div
-                                        className="text-6xl font-bold text-white/10"
-                                        whileHover={{ scale: 1.2, rotate: 5 }}
-                                    >
-                                        {project.title.charAt(0)}
-                                    </motion.div>
-                                </div>
+                                {project.image ? (
+                                    <>
+                                        <img
+                                            src={project.image}
+                                            alt={project.title}
+                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                        />
+                                        <motion.div
+                                            className="absolute inset-0 bg-gradient-to-br from-primary to-secondary opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+                                        />
+                                    </>
+                                ) : (
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <motion.div
+                                            className="text-6xl font-bold text-white/10"
+                                            whileHover={{ scale: 1.2, rotate: 5 }}
+                                        >
+                                            {project.title.charAt(0)}
+                                        </motion.div>
+                                    </div>
+                                )}
                             </div>
 
                             {/* Content */}

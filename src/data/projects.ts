@@ -30,7 +30,7 @@ export const projects: Project[] = [
         ],
         problem: 'Sitecore developers need a rapid prototyping environment to build and test SXA components before integration, with support for multiple themes, languages, and realistic editing experience.',
         solution: 'Built an isolated component library simulator with Storybook, enabling parallel development streams, multi-theme testing, RTL layout verification, and Experience Editor simulation without Sitecore backend dependencies.',
-
+        image: '/assets/1.png',
         liveUrl: 'https://sxa-component-orchestration-platfor.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/SXA_Component_Orchestration_Platform',
         featured: true
@@ -51,7 +51,7 @@ export const projects: Project[] = [
         ],
         problem: 'Small businesses needed an affordable, feature-rich e-commerce solution.',
         solution: 'Created a modular platform with headless CMS, serverless functions, and third-party integrations.',
-
+        image: '/assets/2.png',
         liveUrl: 'https://ai-code-reviewer-six-eta.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Ai-Code-Reviewer',
         featured: true
@@ -71,7 +71,7 @@ export const projects: Project[] = [
         ],
         problem: 'Remote teams needed a unified platform for collaboration without switching between multiple tools.',
         solution: 'Built an all-in-one collaboration suite with WebRTC for video, WebSocket for real-time updates, and CRDT for conflict resolution.',
-
+        image: '/assets/3.png',
         liveUrl: 'https://coachify-seven.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Coachify',
         featured: true
@@ -91,7 +91,7 @@ export const projects: Project[] = [
         ],
         problem: 'Content creators spent too much time on initial drafts and ideation.',
         solution: 'Integrated GPT models with custom prompts and fine-tuning for specific content types and industries.',
-
+        image: '/assets/4.png',
         liveUrl: 'https://example.com',
         githubUrl: 'https://github.com/example',
         featured: true
@@ -111,7 +111,7 @@ export const projects: Project[] = [
         ],
         problem: 'Fitness enthusiasts wanted a comprehensive app that integrates with various health platforms.',
         solution: 'Developed a React Native app with native module integration for health APIs and real-time sync.',
-
+        image: '/assets/5.png',
         liveUrl: 'https://financebot-two.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Financebot',
         featured: true
