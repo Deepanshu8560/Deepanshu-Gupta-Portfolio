@@ -252,7 +252,7 @@ export const Contact = () => {
                                     animate={{ scale: [1, 1.2, 1] }}
                                     transition={{ duration: 2, repeat: Infinity }}
                                 />
-                                <span className="text-gray-300">Available for new projects</span>
+                                <span className="text-gray-300">Available for New Project</span>
                             </div>
                         </div>
 
@@ -293,9 +293,9 @@ export const Contact = () => {
                                 Quick Info
                             </h3>
                             <div className="space-y-3 text-gray-300">
-                                <p>📍 Based in San Francisco, CA</p>
-                                <p>⏰ PST (UTC-8)</p>
-                                <p>💼 Open to remote opportunities</p>
+                                <p>📍 Based in Bengaluru, India</p>
+                                <p>⏰ IST (UTC+5:30)</p>
+                                <p>💼 Open to opportunities</p>
                                 <p>⚡ Response time: Within 24 hours</p>
                             </div>
                         </div>
