@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const roles = ['Web Developer', 'UI Engineer', 'SaaS Builder', 'Creative Coder'];
+const roles = ['Software Developer', 'Web Developer', 'UI Engineer', 'SaaS Builder', 'Creative Coder'];
 
 export const TypingAnimation = () => {
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
