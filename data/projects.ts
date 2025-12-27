@@ -80,7 +80,7 @@ export const projects: Project[] = [
         id: 'proj-4',
         title: 'LinkSnap - A Modern URL Shortener',
         description: 'A production-ready URL shortening web application with analytics, built using modern web technologies and cloud infrastructure.',
-        category: 'Frontend',
+        category: 'Web App',
         technologies: ['React', 'Next', 'PostgreSQL', 'JavaScript', 'ZOD'],
         features: [
             'Custom short link creation with optional user-defined codes',
