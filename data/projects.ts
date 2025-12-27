@@ -78,16 +78,16 @@ export const projects: Project[] = [
     },
     {
         id: 'proj-4',
-        title: 'AI-Powered Content Generator',
-        description: 'Content creation platform using AI to generate marketing copy, blog posts, and social media content.',
-        category: 'SaaS',
-        technologies: ['React', 'Python', 'FastAPI', 'OpenAI API', 'PostgreSQL', 'Docker'],
+        title: 'LinkSnap - A Modern URL Shortener',
+        description: 'A production-ready URL shortening web application with analytics, built using modern web technologies and cloud infrastructure.',
+        category: 'Frontend',
+        technologies: ['React', 'Next', 'PostgreSQL', 'JavaScript', 'ZOD'],
         features: [
-            'Multiple content types',
-            'Tone and style customization',
-            'SEO optimization',
-            'Plagiarism checking',
-            'Content scheduling'
+            'Custom short link creation with optional user-defined codes',
+            'Real-time click tracking and analytics dashboard',
+            'Responsive UI with search, filter, and copy-to-clipboard functionality',
+            'Health monitoring endpoints for production observability',
+            'Responsive UI with search, filter, and copy-to-clipboard functionality'
         ],
         problem: 'Content creators spent too much time on initial drafts and ideation.',
         solution: 'Integrated GPT models with custom prompts and fine-tuning for specific content types and industries.',
