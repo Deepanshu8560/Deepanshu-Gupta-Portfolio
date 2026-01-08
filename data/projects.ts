@@ -115,7 +115,28 @@ export const projects: Project[] = [
         liveUrl: 'https://financebot-two.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Financebot',
         featured: true
-    }
+    },
+    {
+    id: 'proj-6',
+    title: 'Code Complexity Visualizer',
+    description: 'A powerful, real-time code analysis tool that visualizes Time and Space complexity while providing AI-driven optimization suggestions.',
+    category: 'Web App',
+    technologies: ['React', 'Tailwind CSS', 'FastAPI', 'Groq API', 'Python', 'Recharts'],
+    features: [
+        'Real-Time Visualization',
+        'AI Optimization & Refactoring',
+        'Deep Metric Analysis',
+        'Modern UI/UX',
+        'Complexity Badges'
+    ],
+    problem: 'Developers often struggle to visualize and optimize the time and space complexity of their algorithms in real-time.',
+    solution: 'A real-time visualizer that plots complexity curves and provides instant AI-powered suggestions using Groq Llama 3.1.',
+    image: '/assets/6.png',
+    liveUrl: 'https://code-complexity-visualizer-azure.vercel.app/',
+    githubUrl: 'https://github.com/Deepanshu8560/Code-Complexity-Visualizer',
+    featured: true
+}
+    
 ];
 
 export const projectCategories = ['All', 'Web App', 'SaaS', 'Mobile'] as const;
