@@ -15,27 +15,27 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-    id: 'proj-1',
-    title: 'AI Personal Finance Assistant',
-    description: 'An intelligent financial companion that helps users track expenses, plan budgets, and receive personalized investment advice in the Indian context.',
-    category: 'All',
-    technologies: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'TailwindCSS', 'Framer Motion', 'Groq SDK (Llama-3)'],
-    features: [
-        'AI-powered expense analysis & insights',
-        'Natural language chat with memory persistence',
-        'Interactive budget planner (50/30/20 rule)',
-        'Goal tracking & forecasting visualizations',
-        'Secure Google Authentication & JWT',
-        'Responsive dashboard with real-time charts',
-        'CSV import for bank statements',
-        'Localized for Indian Rupees (₹)'
-    ],
-    problem: 'Users struggle to track scattered expenses and get relevant financial advice tailored to the Indian market without expensive consultants.',
-    solution: 'Built a full-stack web app that aggregates financial data, provides instant AI-driven advice, and visualizes progress towards financial goals.',
-    image: '/assets/7.png',
-    liveUrl: 'https://ai-finance-bot-three.vercel.app/',
-    githubUrl: 'https://github.com/Deepanshu8560/Ai-Finance-Bot',
-    featured: true
+        id: 'proj-1',
+        title: 'AI Personal Finance Assistant',
+        description: 'An intelligent financial companion that helps users track expenses, plan budgets, and receive personalized investment advice in the Indian context.',
+        category: 'Web App',
+        technologies: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'TailwindCSS', 'Framer Motion', 'Groq SDK (Llama-3)'],
+        features: [
+            'AI-powered expense analysis & insights',
+            'Natural language chat with memory persistence',
+            'Interactive budget planner (50/30/20 rule)',
+            'Goal tracking & forecasting visualizations',
+            'Secure Google Authentication & JWT',
+            'Responsive dashboard with real-time charts',
+            'CSV import for bank statements',
+            'Localized for Indian Rupees (₹)'
+        ],
+        problem: 'Users struggle to track scattered expenses and get relevant financial advice tailored to the Indian market without expensive consultants.',
+        solution: 'Built a full-stack web app that aggregates financial data, provides instant AI-driven advice, and visualizes progress towards financial goals.',
+        image: '/assets/1.png',
+        liveUrl: 'https://ai-finance-bot-three.vercel.app/',
+        githubUrl: 'https://github.com/Deepanshu8560/Ai-Finance-Bot',
+        featured: true
     },
 
     {
@@ -54,7 +54,7 @@ export const projects: Project[] = [
         ],
         problem: 'Sitecore developers need a rapid prototyping environment to build and test SXA components before integration, with support for multiple themes, languages, and realistic editing experience.',
         solution: 'Built an isolated component library simulator with Storybook, enabling parallel development streams, multi-theme testing, RTL layout verification, and Experience Editor simulation without Sitecore backend dependencies.',
-        image: '/assets/1.png',
+        image: '/assets/2.png',
         liveUrl: 'https://sxa-component-orchestration-platfor.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/SXA_Component_Orchestration_Platform',
         featured: true
@@ -64,7 +64,7 @@ export const projects: Project[] = [
         id: 'proj-3',
         title: 'Ai Code Reviewer',
         description: 'Full-featured online shopping platform with advanced search, recommendations, and payment integration.',
-        category: 'E-commerce',
+        category: 'Web App',
         technologies: ['Next.js', 'TypeScript', 'Stripe', 'MongoDB', 'Algolia', 'AWS'],
         features: [
             'Advanced product search',
@@ -75,7 +75,7 @@ export const projects: Project[] = [
         ],
         problem: 'Small businesses needed an affordable, feature-rich e-commerce solution.',
         solution: 'Created a modular platform with headless CMS, serverless functions, and third-party integrations.',
-        image: '/assets/2.png',
+        image: '/assets/3.png',
         liveUrl: 'https://ai-code-reviewer-six-eta.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Ai-Code-Reviewer',
         featured: true
@@ -95,7 +95,7 @@ export const projects: Project[] = [
         ],
         problem: 'Remote teams needed a unified platform for collaboration without switching between multiple tools.',
         solution: 'Built an all-in-one collaboration suite with WebRTC for video, WebSocket for real-time updates, and CRDT for conflict resolution.',
-        image: '/assets/3.png',
+        image: '/assets/4.png',
         liveUrl: 'https://coachify-seven.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Coachify',
         featured: true
@@ -115,7 +115,7 @@ export const projects: Project[] = [
         ],
         problem: 'Content creators spent too much time on initial drafts and ideation.',
         solution: 'Integrated GPT models with custom prompts and fine-tuning for specific content types and industries.',
-        image: '/assets/4.png',
+        image: '/assets/5.png',
         liveUrl: 'https://example.com',
         githubUrl: 'https://github.com/example',
         featured: true
@@ -135,32 +135,32 @@ export const projects: Project[] = [
         ],
         problem: 'Fitness enthusiasts wanted a comprehensive app that integrates with various health platforms.',
         solution: 'Developed a React Native app with native module integration for health APIs and real-time sync.',
-        image: '/assets/5.png',
+        image: '/assets/6.png',
         liveUrl: 'https://financebot-two.vercel.app/',
         githubUrl: 'https://github.com/Deepanshu8560/Financebot',
         featured: true
     },
     {
-    id: 'proj-7',
-    title: 'Code Complexity Visualizer',
-    description: 'A powerful, real-time code analysis tool that visualizes Time and Space complexity while providing AI-driven optimization suggestions.',
-    category: 'Web App',
-    technologies: ['React', 'Tailwind CSS', 'FastAPI', 'Groq API', 'Python', 'Recharts'],
-    features: [
-        'Real-Time Visualization',
-        'AI Optimization & Refactoring',
-        'Deep Metric Analysis',
-        'Modern UI/UX',
-        'Complexity Badges'
-    ],
-    problem: 'Developers often struggle to visualize and optimize the time and space complexity of their algorithms in real-time.',
-    solution: 'A real-time visualizer that plots complexity curves and provides instant AI-powered suggestions using Groq Llama 3.1.',
-    image: '/assets/6.png',
-    liveUrl: 'https://code-complexity-visualizer-azure.vercel.app/',
-    githubUrl: 'https://github.com/Deepanshu8560/Code-Complexity-Visualizer',
-    featured: true
-}
-    
+        id: 'proj-7',
+        title: 'Code Complexity Visualizer',
+        description: 'A powerful, real-time code analysis tool that visualizes Time and Space complexity while providing AI-driven optimization suggestions.',
+        category: 'Web App',
+        technologies: ['React', 'Tailwind CSS', 'FastAPI', 'Groq API', 'Python', 'Recharts'],
+        features: [
+            'Real-Time Visualization',
+            'AI Optimization & Refactoring',
+            'Deep Metric Analysis',
+            'Modern UI/UX',
+            'Complexity Badges'
+        ],
+        problem: 'Developers often struggle to visualize and optimize the time and space complexity of their algorithms in real-time.',
+        solution: 'A real-time visualizer that plots complexity curves and provides instant AI-powered suggestions using Groq Llama 3.1.',
+        image: '/assets/7.png',
+        liveUrl: 'https://code-complexity-visualizer-azure.vercel.app/',
+        githubUrl: 'https://github.com/Deepanshu8560/Code-Complexity-Visualizer',
+        featured: true
+    }
+
 ];
 
-export const projectCategories = ['All', 'Web App', 'SaaS', 'Mobile'] as const;
+export const projectCategories = ['All', 'Web App', 'SaaS', '3D Experience', 'Mobile'] as const;
