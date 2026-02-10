@@ -18,7 +18,7 @@ export const projects: Project[] = [
     id: 'proj-1',
         title: 'AI Personal Finance Assistant',
         description: 'An intelligent financial companion that helps users track expenses, plan budgets, and receive personalized investment advice in the Indian context.',
-        category: 'Saas',
+        category: 'All',
         technologies: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'TailwindCSS', 'Framer Motion', 'Groq SDK (Llama-3)'],
         features: [
             'AI-powered expense analysis & insights',
