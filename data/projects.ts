@@ -16,27 +16,27 @@ export interface Project {
 export const projects: Project[] = [
     {
     id: 'proj-1',
-        title: 'AI Personal Finance Assistant',
-        description: 'An intelligent financial companion that helps users track expenses, plan budgets, and receive personalized investment advice in the Indian context.',
-        category: 'All',
-        technologies: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'TailwindCSS', 'Framer Motion', 'Groq SDK (Llama-3)'],
-        features: [
-            'AI-powered expense analysis & insights',
-            'Natural language chat with memory persistence',
-            'Interactive budget planner (50/30/20 rule)',
-            'Goal tracking & forecasting visualizations',
-            'Secure Google Authentication & JWT',
-            'Responsive dashboard with real-time charts',
-            'CSV import for bank statements',
-            'Localized for Indian Rupees (₹)'
-        ],
-        problem: 'Users struggle to track scattered expenses and get relevant financial advice tailored to the Indian market without expensive consultants.',
-        solution: 'Built a full-stack web app that aggregates financial data, provides instant AI-driven advice, and visualizes progress towards financial goals.',
-        image: '/assets/7.png',
-        liveUrl: 'https://ai-finance-bot-three.vercel.app/',
-        githubUrl: 'https://github.com/Deepanshu8560/Ai-Finance-Bot',
-        featured: true
-},
+    title: 'AI Personal Finance Assistant',
+    description: 'An intelligent financial companion that helps users track expenses, plan budgets, and receive personalized investment advice in the Indian context.',
+    category: 'All',
+    technologies: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'TailwindCSS', 'Framer Motion', 'Groq SDK (Llama-3)'],
+    features: [
+        'AI-powered expense analysis & insights',
+        'Natural language chat with memory persistence',
+        'Interactive budget planner (50/30/20 rule)',
+        'Goal tracking & forecasting visualizations',
+        'Secure Google Authentication & JWT',
+        'Responsive dashboard with real-time charts',
+        'CSV import for bank statements',
+        'Localized for Indian Rupees (₹)'
+    ],
+    problem: 'Users struggle to track scattered expenses and get relevant financial advice tailored to the Indian market without expensive consultants.',
+    solution: 'Built a full-stack web app that aggregates financial data, provides instant AI-driven advice, and visualizes progress towards financial goals.',
+    image: '/assets/7.png',
+    liveUrl: 'https://ai-finance-bot-three.vercel.app/',
+    githubUrl: 'https://github.com/Deepanshu8560/Ai-Finance-Bot',
+    featured: true
+    },
 
     {
         id: 'proj-2',
